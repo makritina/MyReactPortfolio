@@ -1,0 +1,147 @@
+#about{
+    font-family: 'Gideon Roman', cursive;
+    background-color: #232F23;
+  }
+  
+  #about h1{
+    position: relative;
+    font-family: 'Cinzel', serif;
+    font-size: 15rem;
+    z-index: 12;
+  }
+  
+  #customimg img{
+    width:23rem;
+    position: relative;
+    top:100px;
+    left:50px;
+    z-index: 1;
+  }
+  
+  #customfont{
+    font-family: 'Bodoni Moda', serif ;
+  }
+  #about h2{
+    font-family: 'Cinzel', serif;
+  }
+  
+  #customcol{
+    margin-left: 70px;
+  }
+  #customtitle{
+    margin-left: 80px;
+    margin-top: 50px;
+  }
+  
+  #custombtn{
+    background-color: #181210;
+  }
+  
+  .hrstyle {
+    border: 2px solid #000000;
+  }
+  @media screen and (max-width:1250.5px){
+    #customimg img{
+      width:18rem;
+      top:150px;
+  
+    }
+    #about h1{
+      font-size: 11.5rem;
+    }
+  }
+  
+  @media screen and (max-width:991.5px){
+    #customcol{
+      margin-left: 0px;
+    }
+    #customtitle{
+      margin-left: 0px;
+      margin-top: 50px;
+    }
+    #about h1{
+      font-size: 10.5rem;
+    }
+    #customimg img{
+      width:15rem;
+      top:90px;
+  
+    }
+  
+  
+  }
+  
+  @media screen and (max-width:767.5px){
+    #about h1{
+      font-size: 7rem;
+    }
+  
+    #customimg img{
+      width:10.5rem;
+      top:90px;
+      left:10px;
+  
+    }
+  }
+  @media screen and (max-width:495.5px){
+    #about h1{
+      font-size: 5rem;
+    }
+  
+    #customimg img{
+      width:9rem;
+      top:85px;
+      left:20px;
+  
+    }
+  }
+  @media screen and (max-width:398.5px){
+    
+    #customtitle{
+      margin-left: 0px;
+      margin-top: 50px;
+    }
+    
+    #customimg img{
+      width:10rem;
+      top:80px;
+      left: -10px;
+  
+    }
+  
+  
+  }
+  @media screen and (max-width:375.5px){
+    
+    #customtitle{
+      margin-left: 0px;
+      margin-top: 10px;
+    }
+    
+    #customimg img{
+      width:9rem;
+      top:60px;
+      left: -10px;
+  
+    }
+  
+  
+  }
+  @media screen and (max-width:345.5px){
+    
+    #customtitle{
+      margin-left: 0px;
+      margin-top: 5px;
+    }
+    
+    #customimg img{
+      width:8rem;
+      top:65px;
+      left: -10px;
+  
+    }
+  
+  
+  }
+  
+  

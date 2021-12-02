@@ -1,0 +1,121 @@
+#contact {
+    background-color: #232F23 ;
+    font-family: 'Gideon Roman', cursive;
+    position: relative;
+    }
+    
+    .bg-area-contact{
+      background-color:#1C1C1C;
+      position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    
+    }
+    
+    
+    #form,
+    #links,
+    #contact h2{
+      position: relative;
+    }
+    
+    #contact h2{
+      font-family: 'Cinzel', serif;
+      font-size: 9rem;
+      margin-bottom: 60px;
+    }
+    
+    
+    input[type="text"], textarea {
+    
+      background-color : #3D3D3D;
+      border: solid 1px #3D3D3D !important;
+    
+    }
+    input:focus{
+      background: #3D3D3D !important;
+      border: solid 1px #3D3D3D !important;
+    }
+    
+    textarea{
+      background-color: #3D3D3D !important;
+      border: solid 1px #3D3D3D !important;
+    }
+    
+    
+    #custombtnform{
+      background-color: #455E45;
+    }
+    
+    #custombtnform:active{
+      transform: scale(0.98);
+    }
+    
+    #customborder{
+      background-color: rgba(#181210, 0.79);
+      border: 2px solid #181210;
+      display: inline-block;
+      margin: 10px;
+      padding: 10px;
+    }
+    #links{
+      font-family: 'Bodoni Moda', serif ;
+    }
+    #links a{
+      color:#577557;
+    }
+    #links a:hover{
+      color:#BDE278;
+    }
+    
+    @media screen and (min-width:900px){
+    #contact{
+      height: 100vh;
+    }
+    }
+    
+    
+    @media screen and (max-width:890px){
+    #links{
+      margin-bottom:150px;
+    }
+    }
+    @media screen and (max-width:630px){
+      #contact h2{
+        font-size: 6rem;
+      }
+      #form{
+      left:20px;
+      }
+      #links{
+        left:20px;
+      }
+    }
+    
+    .form.active{
+      display: none;
+    }
+    .row .activerow{
+      display:none;
+    }
+    .messagecustom{
+      font-size: 5rem;
+    }
+    
+    .row.customrow{
+      display: block;
+    }
+
+    @media (max-width: 395px) and (orientation: portrait) {
+      #form h2{
+        font-size: 4rem;
+      }
+    }
+    @media (max-width: 338px) and (orientation: portrait) {
+      #customboarder{
+        margin: 0;
+      }
+    }
+
+    

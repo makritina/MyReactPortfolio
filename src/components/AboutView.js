@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import StyledLink from './styled'
 import StyledTopLink from './StyledTopLink'
 import me from './images/me.png'
+import './About.css'
 
 const AboutView = () => {
   return (
@@ -14,8 +15,12 @@ const AboutView = () => {
           <ul className='sidebar_menu'>
             <StyledLink
               to='/'
-             >
+            >
               <div >Home </div>
+            </StyledLink>
+
+            <StyledLink to='/Work'>
+              <div >Work</div>
             </StyledLink>
 
             <StyledLink to='/Contact'>
@@ -33,8 +38,11 @@ const AboutView = () => {
           <ul className='menu'>
             <StyledTopLink
               to='/'
-         >
+            >
               <div >Home </div>
+            </StyledTopLink>
+            <StyledTopLink to='/work'>
+              <div>Work</div>
             </StyledTopLink>
 
             <StyledTopLink to='/contact'>
@@ -54,7 +62,7 @@ const AboutView = () => {
               </div>
 
               <div className='col-5 ' id='customimg'>
-                <img className='rounded swing-in-top-fwd'src={me} alt='Tina Makri' />
+                <img className='rounded swing-in-top-fwd' src={me} alt='Tina Makri' />
               </div>
 
             </div>
@@ -64,11 +72,11 @@ const AboutView = () => {
               <div className='fade-in'>
                 <h3 className='fs-1'>I'm Tina,</h3>
                 <p className='fs-5 slide-in-fwd-center pb-2 '>  I'm Front-End Developer located in Greece.<br />
-                Well-organised person, problem solver, with high attention to detail.
-                I love working collaboratively, but can also run projects on my own.
+                  Well-organised person, problem solver, with high attention to detail.
+                  I love working collaboratively, but can also run projects on my own.
                   I enjoy building state-of-the-art, easy to use, user-friendly but most important accessible websites.
 
-              </p>
+                </p>
               </div>
 
               <hr className='hrstyle' />
@@ -76,8 +84,8 @@ const AboutView = () => {
               <div className='pb-3 fade-in'>
                 <p className='fs-5'> One of my favourite quotes: </p>
                 <p className='fs-1' id='customfont'>
-         “Always code as if the guy who ends up maintaining your code will be a violent
-         psychopath who knows where you live.”<br />
+                  “Always code as if the guy who ends up maintaining your code will be a violent
+                  psychopath who knows where you live.”<br />
                   <span className='fs-3'>-Martin Golding </span>
                 </p>
               </div>
@@ -87,12 +95,12 @@ const AboutView = () => {
               <div className='pb-5 fade-in'>
                 <h2> Skills </h2>
                 <p className='fs-5 '>
-                HTML / CSS / JavaScript / React / Bootstrap / SQL / Python / Sass /
-                Git / npm / Django / Wagtail
-              </p>
+                  HTML / CSS / JavaScript / React / Bootstrap / SQL / Python / Sass /
+                  Git / npm / Django / Wagtail
+                </p>
                 <div >
 
-                  <Link className='btn scale-up-center text-white fs-5 mt-4 mb-5 mt-5 rounded-pill' to='/contact' role='button 'id='custombtn'>Contact me</Link>
+                  <Link className='btn scale-up-center text-white fs-5 mt-4 mb-5 mt-5 rounded-pill' to='/contact' role='button ' id='custombtn'>Contact me</Link>
                 </div>
               </div>
 

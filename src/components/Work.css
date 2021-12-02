@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+#work{
+    background-color: #1C1C1C;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+.work-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.work-container h1{
+    font-size: 10rem;
+    font-family: 'Cinzel', serif;
+    position: relative;
+    margin-top: 150px;
+    
+}
+
+
+.work-container h2{
+    font-size: 4rem;
+    font-style: italic;
+}
+.work-container p{
+    font-family: 'Bodoni Moda', serif ;
+    font-size: 1.6rem;
+    color: #181210;
+}
+
+li a{
+    text-decoration: none;
+    color: #6c996c;
+}
+
+li a:hover{
+ color: #3e853e;
+}
+ul li a:active{
+    transform: scale(0.98);
+}
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@media  (max-width: 1123px) {
+    .work-container h1{
+        font-size: 9rem;
+        
+    }
+    
+    
+    .work-container h2{
+        font-size: 4rem;
+    }
+    .work-container p{
+        
+        font-size: 1.4rem;
+        
+    }
+}
+@media  (max-width: 1123px) {
+    .work-container h1{
+        font-size: 9rem;
+        padding-bottom: 40px;
+    }
+
+    
+    
+
+    
+}
+@media  (max-width: 1070px) {
+    .work-container h2{
+        font-size: 3rem;
+    }
+
+    
+    
+
+    
+}
+
+@media (max-width:991.5px) {
+    .header h1 {
+        
+        margin-top: 0;
+    }
+    .work-container{
+        justify-content: flex-start;
+        padding-top: 150px;
+    }
+    
+}
+@media (max-width:908.5px) {
+   
+    .work-container{
+        justify-content: flex-start;
+        padding-top: 80px;
+    }
+    
+}
+@media  (max-width: 820px) {
+    .work-container h1{
+        font-size: 7.7rem;
+        
+    }
+    
+    
+    .work-container h2{
+        font-size: 3rem;
+    }
+    .work-container p{
+        color: #fff;
+        font-size: 1.1rem;
+        
+    }
+    #work{
+        height: auto;
+    }
+    #work{
+        width:100%;
+        left:0;
+      }
+
+    .header h1 {
+        position: relative;
+        bottom: 50px;
+        left: 30px;
+        font-size: 7rem;
+        margin-top: 0;
+    }
+      .projects li{
+          position: relative;
+          bottom: 50px;
+      }
+
+       #work{
+          overflow: hidden;
+      } 
+      
+}
+.projects li a{
+
+    display: block;
+}
+
+@media (max-width:600px){
+    .work-container{
+        padding-top: 100px;
+    }
+    .header h1{
+     
+        font-size:6.3rem;
+    }
+}
+@media (max-width:593px){
+    
+    .header h1{
+        font-size:5rem;
+    }
+    .projects h2{
+        font-size: 2.6rem;
+    }
+}
+@media (max-width:393px){
+    .work-container{
+        padding-top: 60px;
+    }
+    .header h1{
+        font-size:5rem;
+    }
+    .projects h2{
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width:374px) and (orientation:portrait){
+    
+    .header h1{
+        
+        font-size:3.8rem;
+    }
+    .projects h2{
+        font-size: 1.7rem;
+    }
+}

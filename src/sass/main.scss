@@ -8,289 +8,13 @@
   #about,
   #project,
   #home,
-  #contact{
+  #contact,
+  #work{
   width:100%;
   left:0;
 }
 }
 
-
-#home {
-width: calc(100%-60px);
-background-color: #1C1C1C;
-font-family: 'Gideon Roman', cursive;
-
-}
-
-
-.italic {
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-.italic:hover {
-    -webkit-transform: skewX(-9deg);
-    -moz-transform: skewX(-9deg);
-    -o-transform: skewX(-9deg);
-    transform: skewX(-9deg);
-}
-
-.bg-area{
-  background-color: #232F23;
-  position: absolute;
-height: 100%;
-width: 100%;
-z-index: 0;
-
-}
-
-#home h1{
-  font-size: 8rem;
-position: relative;
-z-index: 1;
-}
-@media screen and (max-width:548px){
-#home h1{
-  font-size:4.5rem;
-}
-#homerow{
-  margin-top: 50px;
-}
-}
-
-@media screen and (max-width:800px) and (min-width:548px){
-  #home h1{
-font-size: 6.5rem;
-  }
-  #homerow{
-    margin-top: 50px;
-  }
-
-}
-
-
-@media screen and (max-width:1300px) and (min-width: 801px){
-  #home h1{
-  font-size: 6.5rem;
-  }
-  #homerow{
-    margin-top: 50px;
-  }
-}
-
-#namediv{
-  font-family: 'Cinzel', serif;
-  position: relative;
-  z-index: 1;
-}
-
-
-
-//AboutView
-#about{
-  font-family: 'Gideon Roman', cursive;
-  background-color: #232F23;
-}
-
-#about h1{
-  position: relative;
-  font-family: 'Cinzel', serif;
-  font-size: 15rem;
-  z-index: 12;
-}
-
-#customimg img{
-  width:23rem;
-  position: relative;
-  top:100px;
-  left:50px;
-  z-index: 1;
-}
-
-#customfont{
-  font-family: 'Bodoni Moda', serif ;
-}
-#about h2{
-  font-family: 'Cinzel', serif;
-}
-
-#customcol{
-  margin-left: 70px;
-}
-#customtitle{
-  margin-left: 80px;
-  margin-top: 50px;
-}
-
-#custombtn{
-  background-color: #181210;
-}
-
-.hrstyle {
-  border: 2px solid #000000;
-}
-@media screen and (max-width:1250.5px){
-  #customimg img{
-    width:18rem;
-    top:150px;
-
-  }
-  #about h1{
-    font-size: 11.5rem;
-  }
-}
-
-@media screen and (max-width:991.5px){
-  #customcol{
-    margin-left: 0px;
-  }
-  #customtitle{
-    margin-left: 0px;
-    margin-top: 50px;
-  }
-  #about h1{
-    font-size: 10.5rem;
-  }
-  #customimg img{
-    width:15rem;
-    top:90px;
-
-  }
-
-
-}
-
-@media screen and (max-width:767.5px){
-  #about h1{
-    font-size: 7rem;
-  }
-
-  #customimg img{
-    width:10.5rem;
-    top:90px;
-    left:10px;
-
-  }
-}
-@media screen and (max-width:495.5px){
-  #about h1{
-    font-size: 5rem;
-  }
-
-  #customimg img{
-    width:9rem;
-    top:85px;
-    left:20px;
-
-  }
-}
-
-//contact
-#contact {
-background-color: #232F23 ;
-font-family: 'Gideon Roman', cursive;
-position: relative;
-}
-
-.bg-area-contact{
-  background-color:#1C1C1C;
-  position: absolute;
-height: 100%;
-width: 100%;
-z-index: 0;
-
-}
-
-#form,
-#links,
-#contact h2{
-  position: relative;
-}
-
-#contact h2{
-  font-family: 'Cinzel', serif;
-  font-size: 9rem;
-  margin-bottom: 60px;
-}
-
-
-input[type="text"], textarea {
-
-  background-color : #3D3D3D;
-  border: solid 1px #3D3D3D !important;
-
-}
-input:focus{
-  background: #3D3D3D !important;
-  border: solid 1px #3D3D3D !important;
-}
-
-textarea{
-  background-color: #3D3D3D !important;
-  border: solid 1px #3D3D3D !important;
-}
-
-
-#custombtnform{
-  background-color: #455E45;
-}
-
-#customborder{
-  background-color: rgba(#181210, 0.79);
-  border: 2px solid #181210;
-  display: inline-block;
-  margin: 10px;
-  padding: 10px;
-}
-#links{
-  font-family: 'Bodoni Moda', serif ;
-}
-#links a{
-  color:#577557;
-}
-#links a:hover{
-  color:#BDE278;
-}
-
-@media screen and (min-width:900px){
-#contact{
-  height: 100vh;
-}
-}
-
-
-@media screen and (max-width:890px){
-#links{
-  margin-bottom:150px;
-}
-}
-@media screen and (max-width:630px){
-  #contact h2{
-    font-size: 6rem;
-  }
-  #form{
-  left:20px;
-  }
-  #links{
-    left:20px;
-  }
-}
-
-.form.active{
-  display: none;
-}
-.row .activerow{
-  display:none;
-}
-.messagecustom{
-  font-size: 5rem;
-}
-
-.row.customrow{
-  display: block;
-}
 
 
 //SideBar
@@ -695,6 +419,34 @@ color:#fff !important;
   }
 }
 
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
 
 
 //
